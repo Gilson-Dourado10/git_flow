@@ -5,10 +5,17 @@ teste = Class.new do
   end
   def meth2
     "RUBY ON RAILS"
+    end
+    def meth3
+      "GIT FLOW HOTFIX"
+    end
   end
-end
+
+
 teste  = teste.new
-puts teste.meth1          #=> "hello"
-puts teste.meth2          #=> "bye"
+puts teste.meth1
+puts teste.meth2
+puts teste.meth3
+
 
 
