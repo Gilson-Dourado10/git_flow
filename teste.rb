@@ -1,15 +1,14 @@
 
-fred = Class.new do
+teste = Class.new do
   def meth1
-    "hello"
+    "GIT FLOW "
   end
   def meth2
-    "bye"
+    "RUBY ON RAILS"
   end
 end
-
-puts a = fred.new     #=> #<#<Class:0x100381890>:0x100376b98>
-puts a.meth1          #=> "hello"
-puts a.meth2          #=> "bye"
+teste  = teste.new
+puts teste.meth1          #=> "hello"
+puts teste.meth2          #=> "bye"
 
 
